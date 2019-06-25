@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-sifrr",
+  "name": "@sifrr/eslint-config",
   "version": "0.0.1",
   "description": "eslint config for @sifrr/dev",
   "main": "eslintrc.js",
