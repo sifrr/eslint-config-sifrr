@@ -1,5 +1,5 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   env: {
     browser: true,
     node: true,
@@ -19,16 +19,20 @@ module.exports = {
     PATH: false,
     SPATH: false,
     page: false,
-    browser: false
+    browser: false,
+    pdescribe: false
   },
   parserOptions: {
-    sourceType: "module",
+    sourceType: 'module',
     ecmaVersion: 2018,
     esversion: 2018
   },
-  extends: ["plugin:prettier/recommended", "eslint:recommended"],
-  plugins: ["mocha"],
+  extends: ['plugin:prettier/recommended', 'eslint:recommended'],
+  plugins: ['mocha'],
   rules: {
-    "mocha/no-exclusive-tests": "error"
+    'mocha/no-exclusive-tests': 'error',
+    camelcase: [2, { properties: 'always' }],
+    'consistent-return': 'error',
+    'no-delete-var': 'error'
   }
 };
