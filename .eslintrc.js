@@ -33,6 +33,7 @@ module.exports = {
     'mocha/no-exclusive-tests': 'error',
     camelcase: [2, { properties: 'always' }],
     'consistent-return': 'error',
-    'no-delete-var': 'error'
+    'no-delete-var': 'error',
+    'prefer-const': 'error'
   }
 };
