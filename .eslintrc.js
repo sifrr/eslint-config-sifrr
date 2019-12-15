@@ -35,5 +35,16 @@ module.exports = {
     'consistent-return': 'error',
     'no-delete-var': 'error',
     'prefer-const': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: ['**.ts'],
+      parser: '@typescript-eslint/parser',
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'prettier/@typescript-eslint',
+        'plugin:prettier/recommended'
+      ]
+    }
+  ]
 };

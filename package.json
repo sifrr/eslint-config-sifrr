@@ -1,6 +1,6 @@
 {
   "name": "@sifrr/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "eslint config for @sifrr/dev",
   "main": ".eslintrc.js",
   "scripts": {
@@ -22,11 +22,21 @@
     "url": "https://github.com/sifrr/eslint-config-sifrr/issues"
   },
   "homepage": "https://github.com/sifrr/eslint-config-sifrr#readme",
+  "peerDependencies": {
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.3"
+  },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
     "babel-eslint": "^10.0.2",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-mocha": "^6.0.0",
     "eslint-plugin-prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.3"
   }
 }
