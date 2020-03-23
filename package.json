@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/sifrr/eslint-config-sifrr#readme",
   "peerDependencies": {
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.1",
     "typescript": "^3.7.3"
   },
   "dependencies": {
@@ -36,7 +36,7 @@
     "eslint-plugin-prettier": "^3.1.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.1",
     "typescript": "^3.7.3"
   }
 }
