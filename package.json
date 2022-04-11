@@ -1,10 +1,11 @@
 {
   "name": "@sifrr/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "eslint config for @sifrr",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "yarn eslint test/*"
+    "test": "yarn eslint test/*",
+    "postinstall": "cp prettier.config.js $INIT_CWD"
   },
   "repository": {
     "type": "git",
